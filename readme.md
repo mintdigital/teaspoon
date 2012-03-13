@@ -6,7 +6,7 @@ Send messages to [Mint Source](https://github.com/mintdigital/mint-source)
 
 ```ruby
 t = Teaspoon.new('http://your-mint-source.com/endpoint', 'username', 'password') # Optional username & password
-t.send('Main message', 'Sub-message', # messgae, submessage, options hash (which is optional, natch)
+t.send('Main message', 'Sub-message', # message, submessage, options hash (which is optional, natch)
   :colour    => '#bada55', # Also accepts color if you're American
   :image     => 'http://farm6.static.flickr.com/5309/5623212581_5f8f3f8788.jpg',
   :timestamp => Time.now
