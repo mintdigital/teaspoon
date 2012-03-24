@@ -21,6 +21,7 @@ Or install it yourself as:
 ### Standalone
 
 ```ruby
+require 'teaspoon'
 t = Teaspoon::Client.new('http://your-mint-source.com/endpoint', 'username', 'password') # Optional username & password
 t.send('Main message', 'Sub-message', # message, submessage, options hash (which is optional, natch)
   :colour    => '#bada55', # Also accepts color if you're American
