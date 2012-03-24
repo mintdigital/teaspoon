@@ -1,3 +1,2 @@
-require "teaspoon/rails"
-require "teaspoon/teaspoon"
-require "teaspoon/version"
+require "teaspoon/client"
+require "teaspoon/engine"
