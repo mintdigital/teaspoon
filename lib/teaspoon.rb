@@ -1,2 +1,4 @@
 require "teaspoon/client"
-require "teaspoon/engine"
+if defined?(Rails)
+  require "teaspoon/engine"
+end
