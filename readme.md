@@ -34,7 +34,7 @@ t.send('Main message', 'Sub-message', # message, submessage, options hash (which
 create a configuration file in `Rails.root + config/teaspoon.yml`. In it, configure Teaspoon::Client, like this:
 
 ```yaml
-url: 'url: 'http://your-mint-source.com/endpoint'
+url: 'http://your-mint-source.com/endpoint'
 username: 'http-auth-username'
 password: 'http-auth-password'
 ```
