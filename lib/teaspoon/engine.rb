@@ -12,7 +12,6 @@ module Teaspoon
       end
 
       $client = Teaspoon::Client.new(@url, @username, @password)
-      puts $client.inspect
 
       if defined?(ActionController::Base)
         ActionController::Base.send(:include, Teaspoon::Controller)
