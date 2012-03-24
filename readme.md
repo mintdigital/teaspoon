@@ -38,11 +38,13 @@ url: 'http://your-mint-source.com/endpoint'
 username: 'http-auth-username'
 password: 'http-auth-password'
 ```
+
 Then, in your controller, you have the `spoon` helper method available:
+
 ```ruby
 def index
-  @users = User.all
-  spoon("This is my message", "This is my submessage", :color => '#000')
+  active_user_count = User.active.count
+  spoon("There are #{active_user_count} active users", "yay!", :color => '#000')
 end
 ```
 
